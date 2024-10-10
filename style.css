@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&display=swap');
+:root{
+    --dark-color:#292830;
+    --orang-color:#FF7235;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------Nav qismi boshldandi----------- */
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo>span{
+font-size: 23px;
+font-weight: 500;
+color: var(--dark-color);
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.nav-list-item>a{
+color: var(--dark-color);
+font-size: 18px;
+font-weight: 400;
+}
+.request-box{
+    color: #FF7235;
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    background-color: transparent;
+    padding: 15px 17px 16px 18px;
+font-size: 18px;
+font-weight: 400;
+}
+.nav-list-item>a:hover{
+    color: #FF7235;
+    transition: 0.5s;
+}
+.request-bnt-box:hover{
+    cursor: pointer;
+    background-color: #FF7235;
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+
+
+/* -------------Nav qismi tugadi----------- */
+
+/* ---------------- Header Bottom qismi boshlandi--- */
+
+.header-bottom{
+    margin-top: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-bottom-text>h1{
+font-size: 96px;
+font-weight: 700;
+line-height: 96px;
+}
+
+.header-bottom-text>p{
+font-size: 24px;
+font-weight: 400;
+line-height: 38.81px;
+text-align: left;
+color: #BDBDBD;
+margin: 20px 0px 40px 0px;
+}
+
+.try-free-box>select{
+    padding: 18px 24px;
+    border-radius: 8px;
+    background: #FF7235;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+}
+
+.try-free-box span{
+font-size: 24px;
+font-weight: 400;
+line-height: 38.81px;
+color: #BDBDBD;
+}
+.try-free-box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* ---------------- Header Bottom qismi tugadi ----- */
+
+/* --------- Main overview qismi boshlandi ---------- */
+
+.overviem{
+    background-color:var(--orang-color);
+}
+
+.img-overveiw{
+    width: 100%;
+    margin-top: 87px 0px 0px 0px;
+}
+.logos-overview img{
+width: 159px;
+height: 32px;
+}
+
+.logos-overview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.main{
+    margin-top: 210px;
+}
+
+
+
+.online-text>h3{
+padding: 24px 0px;
+font-size: 22px;
+font-weight: 400;
+color: #BDBDBD;
+}
+.online-text>h2{  
+padding: 24px 0px;
+font-size: 96px;
+font-weight: 700;
+line-height: 96px;
+color: #292830;
+align-items: center;
+}
+.online-text>span{
+font-size: 24px;
+font-weight: 400;
+line-height: 38.81px;
+color: #BDBDBD;
+}
+.online-text>p{
+ width: Hug (152px)px;
+height: Hug (24px)px;
+top: 655px;
+left: 165px;
+gap: 12px;
+opacity: 0px;
+color: #FF7235;
+}
+
+.alwalys-online-text{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.some-cost{
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFAF8;
+    gap: 10px;
+}
+.some-cost-img{
+    gap: 20px;
+    align-items: center;
+}
+.some-cost-text>h7{
+font-size: 22px;
+font-weight: 400;
+color: #BDBDBD; 
+}
+.some-cost-text>h5{
+margin: 24px 0px;
+font-size: 96px;
+font-weight: 700;
+line-height: 96px;
+color: #000000;
+}
+.some-cost-text>span{
+margin: 24px 0px;
+font-size: 24px;
+font-weight: 400;
+color: #BDBDBD;
+}
+
+.some-cost-text>p{
+    align-items: center;
+font-size: 24px;
+font-weight: 400;
+color: #FF7235;
+}
+.some-cost-text{
+    padding: 141px 0px;
+}
+
+
+.use-anytime-text>h5{
+ padding: 20px 0px;
+font-size: 22px;
+font-weight: 400;
+color: #BDBDBD;
+}
+.use-anytime-text>h2{
+    padding: 20px 0px;
+font-size: 96px;
+line-height: 96px;
+color: #000000;
+}
+.use-anytime-text>span{
+font-weight: 400;
+color: #BDBDBD;
+}
+.use-anytime-text>p{
+ margin: 20px 0px;
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+color: #FF7235;
+}
+.use-anytime{
+    gap: 25px;
+    margin-top: 149px;
+    display: flex;
+    align-items: center;
+}
+
